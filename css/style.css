@@ -1,0 +1,236 @@
+/* CSS */
+* {
+  outline: none;
+}
+
+@font-face {
+  font-family: "rockwell";
+  src: url(../font/Rockwell.ttf);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  font-family: "rockwell";
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.text-pink {
+  color: #ea9191;
+}
+
+.fs-7 {
+  font-size: 0.85rem;
+}
+
+/* HEADER */
+header {
+  background-attachment: fixed;
+  background-image: url(../img/photo.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 1px;
+}
+
+header .titre {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+header .titre a {
+  background-color: #fff;
+  border-radius: 50px;
+  color: orange;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+header .titre p {
+  font-family: "rockwell";
+}
+
+/* largeur image */
+.navbar-brand img {
+  width: 200px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+a:hover {
+  color: #e6b331 !important;
+}
+
+/* triangle container */
+header .content-triangle {
+  margin-bottom: -8px;
+}
+
+/* Triangle */
+header .triangle {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid White;
+  border-left: 40px solid transparent;
+}
+
+/* MAIN INDEX */
+/* section concept */
+.concept {
+  margin-top: 60px;
+}
+
+.concept .titre {
+  background-image: url(../img/fond-grain.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 270px;
+
+  padding-top: 110px;
+  padding-bottom: 20px;
+}
+
+.concept .titre h2 {
+  margin-right: -30px;
+}
+
+.concept article {
+  background-repeat: no-repeat;
+  background-size: 50px;
+  padding-left: 65px;
+}
+
+.concept article.naturel,
+.concept article.bio {
+  background-position: top 100px left;
+  padding-top: 100px;
+}
+
+.concept article.naturel {
+  background-image: url(../img/organic-2.png);
+}
+
+.concept article.bio {
+  background-image: url(../img/organic-1.png);
+}
+
+.concept article.encas {
+  background-image: url(../img/detox.png);
+}
+
+.concept article.calorie {
+  background-image: url(../img/grain-1.png);
+}
+
+/* section decouvrir */
+.decouvrir {
+  margin: 100px 0;
+}
+
+.decouvrir .shadow-decouvrir {
+  border-radius: 30px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.decouvrir article img {
+  width: 200px;
+}
+
+/* MAIN PRODUITS */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.produits article img {
+  width: 200px;
+}
+
+/* MAIN PRODUIT */
+
+.quantity input[type="text"] {
+  width: 34px;
+}
+
+.price {
+  font-family: "rockwell";
+  font-size: 1.2rem;
+}
+
+.composition-list {
+  list-style: none;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(
+    to top right,
+    #96859e,
+    20%,
+    rgba(234, 145, 145, 1),
+    #e6b331
+  );
+  padding-top: 100px;
+}
+
+footer img[alt="contact"] {
+  width: 55%;
+}
+
+footer .footer-icons img {
+  width: 50px;
+}
+
+footer form input,
+footer form textarea {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0;
+  width: 100%;
+}
+
+footer form textarea {
+  border-radius: 30px;
+  height: 275px;
+  resize: none;
+}
+
+footer form ::placeholder {
+  color: white;
+}
+
+footer form div:last-of-type {
+  margin-top: -38px;
+}
+
+footer form [type="submit"] {
+  background-color: rgb(227, 142, 142);
+}
+
+footer .row + p {
+  border-top: 1px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 665px;
+}
